@@ -18,7 +18,7 @@ class DataIbuFactory extends Factory
     {
         return [
             'nama' => fake()->name(),
-            'nik' => fake()->randomNumber(16, true),
+            'nik' => (string) fake()->randomNumber(8, true) . (string) fake()->randomNumber(8, true),
             'alamat' => fake()->address(),
             'nomor' => fake()->phoneNumber(),
             'password' => 'password',

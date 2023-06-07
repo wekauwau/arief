@@ -22,7 +22,7 @@ class DataAnakFactory extends Factory
     {
         return [
             'nama' => fake()->name(),
-            'nik' => fake()->randomNumber(16, true),
+            'nik' => (string) fake()->randomNumber(8, true) . (string) fake()->randomNumber(8, true),
             'tempat_lahir' => fake()->city(),
             'tanggal_lahir' => fake()->date(),
             'usia' => fake()->randomNumber(2, true),

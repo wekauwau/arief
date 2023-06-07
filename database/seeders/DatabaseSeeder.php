@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             DataAnakSeeder::class,
             VaksinSeeder::class,
             ImunisasiSeeder::class,
+            JadwalSeeder::class,
         ]);
     }
 }

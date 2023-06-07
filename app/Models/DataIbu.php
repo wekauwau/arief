@@ -9,6 +9,8 @@ class DataIbu extends Model
 {
     use HasFactory;
 
+    protected $table = "data_ibuses";
+
     protected $fillable = [
         'nama',
         'nik',
