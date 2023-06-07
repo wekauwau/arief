@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             DataIbuSeeder::class,
             DataAnakSeeder::class,
+            VaksinSeeder::class,
         ]);
     }
 }
